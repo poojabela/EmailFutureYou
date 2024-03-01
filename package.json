@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.13",
+    "cron": "^3.1.6",
     "drizzle-orm": "^0.28.6",
     "framer-motion": "^10.16.4",
     "next": "13.5.4",
+    "nodemailer": "^6.9.11",
     "postgres": "^3.4.0",
     "prettier": "^3.0.3",
     "react": "^18",
@@ -20,6 +22,7 @@
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/nodemailer": "^6.4.14",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",
