@@ -224,10 +224,10 @@ function Step3(props: StepProps) {
               return;
             }
 
-            // if (newDate < oneYearLater) {
-            //   setError("Date should be atleast one year in future from today");
-            //   return;
-            // }
+            if (newDate < oneYearLater) {
+              setError("Date should be atleast one year in future from today");
+              return;
+            }
           }}
         >
           Submit
