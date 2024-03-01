@@ -223,6 +223,7 @@ function Step3(props: StepProps) {
               setError("Please fill the feild");
               return;
             }
+
             // if (newDate < oneYearLater) {
             //   setError("Date should be atleast one year in future from today");
             //   return;
